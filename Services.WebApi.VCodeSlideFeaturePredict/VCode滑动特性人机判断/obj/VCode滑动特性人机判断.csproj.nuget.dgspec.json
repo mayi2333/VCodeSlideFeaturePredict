@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\项目源码\\AI\\Services.WebApi.VCodeSlideFeatureTrain\\VCode滑动特性人机判断\\VCode滑动特性人机判断.csproj": {}
+  },
+  "projects": {
+    "C:\\项目源码\\AI\\Services.WebApi.VCodeSlideFeatureTrain\\VCode滑动特性人机判断\\VCode滑动特性人机判断.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\项目源码\\AI\\Services.WebApi.VCodeSlideFeatureTrain\\VCode滑动特性人机判断\\VCode滑动特性人机判断.csproj",
+        "projectName": "VCode滑动特性人机判断",
+        "projectPath": "C:\\项目源码\\AI\\Services.WebApi.VCodeSlideFeatureTrain\\VCode滑动特性人机判断\\VCode滑动特性人机判断.csproj",
+        "packagesPath": "C:\\Users\\mayi\\.nuget\\packages\\",
+        "outputPath": "C:\\项目源码\\AI\\Services.WebApi.VCodeSlideFeatureTrain\\VCode滑动特性人机判断\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mayi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\发布": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.ML.FastTree": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.7.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
