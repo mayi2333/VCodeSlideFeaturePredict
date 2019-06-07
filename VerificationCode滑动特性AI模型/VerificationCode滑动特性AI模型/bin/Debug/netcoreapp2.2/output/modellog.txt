@@ -1,0 +1,9 @@
+************************************************************
+*       Accuracy: 84.65%
+*       AUC:      89.82%
+*       F1Score:  79.91%
+*       Entropy:  92.71%
+*    numberOfLeaves:8, numberOfTrees:125 
+*    minimumExampleCountPerLeaf:10, learningRate:0.2 
+************************************************************
+保存模型到 C:\项目源码\AI\VerificationCode滑动特性AI模型\VerificationCode滑动特性AI模型\bin\Debug\netcoreapp2.2\output\model20190607090223.zip

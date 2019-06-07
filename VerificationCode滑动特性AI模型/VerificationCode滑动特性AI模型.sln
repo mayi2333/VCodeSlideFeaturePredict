@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerificationCode滑动特性AI模型", "VerificationCode滑动特性AI模型\VerificationCode滑动特性AI模型.csproj", "{FF3642C8-0F2E-4DD2-9427-7E3E07B0178E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSB.AI.VerificationCode.Models", "SSB.AI.VerificationCode.Models\SSB.AI.VerificationCode.Models.csproj", "{D8994FF1-7E2D-4893-8591-5AF137C426F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSB.AI.VerificationCode.Training", "SSB.AI.VerificationCode.Training\SSB.AI.VerificationCode.Training.csproj", "{556DC2AA-60C8-42A2-9407-8321F3C837CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSB.AI.VerificationCode.Prediction", "SSB.AI.VerificationCode.Prediction\SSB.AI.VerificationCode.Prediction.csproj", "{1701129E-AF17-4B84-9F00-4F18E410BA75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "训练数据生成", "训练数据生成\训练数据生成.csproj", "{6546E029-0EFC-46C7-8C9D-30B7FB9A3059}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF3642C8-0F2E-4DD2-9427-7E3E07B0178E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3642C8-0F2E-4DD2-9427-7E3E07B0178E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3642C8-0F2E-4DD2-9427-7E3E07B0178E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3642C8-0F2E-4DD2-9427-7E3E07B0178E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8994FF1-7E2D-4893-8591-5AF137C426F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8994FF1-7E2D-4893-8591-5AF137C426F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8994FF1-7E2D-4893-8591-5AF137C426F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8994FF1-7E2D-4893-8591-5AF137C426F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{556DC2AA-60C8-42A2-9407-8321F3C837CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{556DC2AA-60C8-42A2-9407-8321F3C837CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{556DC2AA-60C8-42A2-9407-8321F3C837CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{556DC2AA-60C8-42A2-9407-8321F3C837CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1701129E-AF17-4B84-9F00-4F18E410BA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1701129E-AF17-4B84-9F00-4F18E410BA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1701129E-AF17-4B84-9F00-4F18E410BA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1701129E-AF17-4B84-9F00-4F18E410BA75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6546E029-0EFC-46C7-8C9D-30B7FB9A3059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6546E029-0EFC-46C7-8C9D-30B7FB9A3059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6546E029-0EFC-46C7-8C9D-30B7FB9A3059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6546E029-0EFC-46C7-8C9D-30B7FB9A3059}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7045D151-642E-4BD7-ACF0-E546D2F5F8E1}
+	EndGlobalSection
+EndGlobal
