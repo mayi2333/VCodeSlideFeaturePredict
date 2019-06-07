@@ -4,32 +4,32 @@
 
 调用验证api部分代码是写再上面链接项目里的 这里贴出来
 
-···
-            var code = HttpContext.Current.Session["code"].ToString();
-            var model = new Observation()
-            {
-                sumtime = __totaldate,
-                abscissa = float.Parse(code),
-                total = _datalist.Length,
-                meanv = (float)__mv,
-                meanv1 = (float)__mv1,
-                meanv2 = (float)__mv2,
-                meanv3 = (float)__mv3,
-                meana = (float)__ma,
-                meana1 = (float)__ma1,
-                meana2 = (float)__ma2,
-                meana3 = (float)__ma3,
-                standardv = (float)__o2v,
-                standarda = (float)__o2a
-            };
-            string json = JsonConvert.SerializeObject(model);
-            string url = "http://localhost:11650/api/vcode/slidefeaturepredict";
-            string res = GetHttpWebResponse(url, json);
-            var remodel = JsonConvert.DeserializeObject<VCodePredictModel>(res);
-            if (remodel.code == 1 && remodel.predic)
-            {
-                return true;
-            }
+```
+var code = HttpContext.Current.Session["code"].ToString();
+var model = new Observation()
+{
+    sumtime = __totaldate,
+    abscissa = float.Parse(code),
+    total = _datalist.Length,
+    meanv = (float)__mv,
+    meanv1 = (float)__mv1,
+    meanv2 = (float)__mv2,
+    meanv3 = (float)__mv3,
+    meana = (float)__ma,
+    meana1 = (float)__ma1,
+    meana2 = (float)__ma2,
+    meana3 = (float)__ma3,
+    standardv = (float)__o2v,
+    standarda = (float)__o2a
+};
+string json = JsonConvert.SerializeObject(model);
+string url = "http://localhost:11650/api/vcode/slidefeaturepredict";
+string res = GetHttpWebResponse(url, json);
+var remodel = JsonConvert.DeserializeObject<VCodePredictModel>(res);
+if (remodel.code == 1 && remodel.predic)
+{
+    return true;
+}
   
   
 public class VCodePredictModel
@@ -55,4 +55,4 @@ public class Observation
     public float standarda;
     public bool label;
 }
-···
+```
